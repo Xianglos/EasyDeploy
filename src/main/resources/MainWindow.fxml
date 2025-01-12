@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="easyDeploy.MainWindowController">
+    <ScrollPane fitToWidth="true">
+        <VBox spacing="10" padding="10">
+            <CheckBox text="勾选框"/>
+            <Label text="标签"/>
+            <TextField text="1111"/>
+        </VBox>
+    </ScrollPane>
+    <VBox alignment="CENTER" spacing="10" padding="10">
+        <Button text="按钮1"/>
+        <Button text="按钮2"/>
+    </VBox>
+</StackPane>
